@@ -23,7 +23,7 @@ services:
     build: edgeservice/.
     image: marcopaga/cloud-edgeservice:1
     ports:
-      - "9090:8080"
+      - "9090:9090"
     environment:
       - EUREKA_HOST=eureka
       - ZIPKIN_HOST=zipkin
